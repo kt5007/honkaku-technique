@@ -1,9 +1,9 @@
 <?php
 
 declare(strict_types=1); ?>
-
 <body>
     <?php
+    // range()と同じイメージ
     function numbers()
     {
         yield 1;
