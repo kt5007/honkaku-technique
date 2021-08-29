@@ -1,0 +1,28 @@
+[2021-08-29 22:36:20] MyApplication.ERROR: 商品コード検索で例外が発生しました。 {"message":"SQLの実行エラーが発生しました。","exception":"Exception Object
+(
+    [message:protected] => SQLの実行エラーが発生しました。
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /var/www/html/monolog/find-items.php
+    [line:protected] => 59
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/monolog/find-items.php
+                    [line] => 114
+                    [function] => findByCode
+                    [class] => ItemModel
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => ITEM-00141
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+"} {"memory_usage":"2 MB","file":"/var/www/html/monolog/find-items.php","line":116,"class":null,"function":null}
